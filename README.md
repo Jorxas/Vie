@@ -6,6 +6,8 @@ Aufgaben, Wochenplanung, Projekte und Budgetübersichten bleiben lokal. Der opti
 
 [Interaktive Demo](https://jorxas.github.io/Vie/) · [Portfolio](https://jorxas.github.io/Portfolio/) · [Architektur](ARCHITEKTUR.md) · [Prüfstatus](PRUEFUNG.md)
 
+[![Geprüfte Browser-Demo mit synthetischen Beispielen](docs/vorschau.png)](https://jorxas.github.io/Vie/)
+
 ## Ausprobieren
 
 Die vollständige Projektseite mit Demo liegt in `site/index.html`. Sie arbeitet mit erfundenen Daten. Externe Dienste, Anbieter-Konten und Hintergrundaufträge werden dort nicht ausgeführt. Die Oberfläche kennzeichnet die jeweiligen Simulationen.
