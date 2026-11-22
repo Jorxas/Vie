@@ -10,15 +10,16 @@ Aufgaben, Wochenplanung, Projekte und Budgetübersichten bleiben lokal. Der opti
 
 ## Ausprobieren
 
-Die vollständige Projektseite mit Demo liegt in `site/index.html`. Sie arbeitet mit erfundenen Daten. Externe Dienste, Anbieter-Konten und Hintergrundaufträge werden dort nicht ausgeführt. Die Oberfläche kennzeichnet die jeweiligen Simulationen.
+Die Demo ist die echte Oberfläche von Vie (`index.html`, `app.js`, `core.js`) mit erfundenen Beispieldaten aus `demo/demo-start.js`: Aufgaben der Woche, drei Bewerbungen, Gewohnheiten und zwei Ausgaben. Alles läuft im Browser und im Arbeitsspeicher; beim Neuladen beginnt die Demo neu. Der Assistent und der lokale Agent brauchen den Node-Server und sind in der Demo nicht verbunden.
 
 ## Demo lokal öffnen
 
 ~~~sh
-python -m http.server 8080 --bind 127.0.0.1 --directory site
+node tools/demo-bauen.mjs
+python -m http.server 8080 --bind 127.0.0.1 --directory dist
 ~~~
 
-Danach http://127.0.0.1:8080 öffnen. Die Demo benötigt weder Konten noch Modellgewichte.
+Danach http://127.0.0.1:8080 öffnen. Die Demo benötigt weder Konten noch einen Server. Die Browserprüfung (`node tools/browser-pruefen.cjs`, mit puppeteer-core und installiertem Chrome oder Edge) baut nichts selbst, sie prüft das Ergebnis von `tools/demo-bauen.mjs`.
 
 ## Lokal prüfen
 

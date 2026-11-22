@@ -6,7 +6,7 @@ Der deterministische Kern und die umfangreiche Härtungsprüfung bestanden. Zus�
 
 ## Browser-Demo
 
-Die öffentliche Projektseite wurde bei 390 und 1440 Pixeln in Chrome geprüft: Code- und Demoverweise, Größenanpassung, interaktive Eingaben, JavaScript-Fehler, Content-Security-Policy und ausgehende Netzwerkanfragen. Die Prüfung blockiert fremde Netzwerkanfragen. Die Seite lädt keine externen Schriften oder Tracker.
+Die öffentliche Demo (die echte Oberfläche mit Beispieldaten) wird mit `tools/browser-pruefen.cjs` in Chrome unter dem Veröffentlichungspfad /Vie/ geprüft: Übersicht, Aufgabe abhaken, Wochenansicht, Bewerbungen, Handybreite von 390 Pixeln ohne horizontalen Überlauf, JavaScript-Fehler und ausgehende Netzwerkanfragen. Die Seite lädt keine externen Schriften oder Tracker.
 
 ## Reproduzierbarkeit
 
@@ -14,6 +14,6 @@ Die Startbefehle stehen in README.md. Test- und Browserprotokolle bleiben lokal;
 
 ## Grenzen
 
-Ein lokal bestandener Test mit Fixtures ist kein Nachweis einer produktiven Cloud-Freigabe, einer echten Modellausführung oder eines Kundenbetriebs. Die Browser-Demo kennzeichnet gespeicherte beziehungsweise simulierte Ergebnisse.
+Ein lokal bestandener Test mit Fixtures ist kein Nachweis einer produktiven Cloud-Freigabe, einer echten Modellausführung oder eines Kundenbetriebs. Die Browser-Demo zeigt erfundene Beispieldaten und speichert nichts; Assistent und Agent sind darin nicht verbunden.
 
 Die öffentliche Kopie wurde vor dem ersten Push anhand ihrer Git-Dateiliste auf private Benutzerpfade, persönliche Hosts, E-Mail-Adressen und bekannte Schlüsselpräfixe geprüft. Ein solcher Scan ergänzt die begrenzte Dateiauswahl und ersetzt keine unabhängige Sicherheitsprüfung.

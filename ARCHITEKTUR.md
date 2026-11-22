@@ -4,7 +4,7 @@ Aufgaben, Wochenplanung, Projekte und Budgetübersichten bleiben lokal. Der opti
 
 ## Verantwortungsgrenzen
 
-Die lokale Anwendung enthält den eigentlichen Dienst beziehungsweise Motor. Die öffentliche Browser-Demo erklärt einen begrenzten Ablauf. Ihre Daten stammen nicht aus einer produktiven Installation.
+Die lokale Anwendung enthält den eigentlichen Dienst beziehungsweise Motor. Die öffentliche Browser-Demo führt dieselbe Oberfläche mit erfundenen Beispieldaten im Arbeitsspeicher aus. Ihre Daten stammen nicht aus einer produktiven Installation.
 
 ## Prüfbarkeit
 
