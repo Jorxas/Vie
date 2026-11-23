@@ -12,6 +12,8 @@ Aufgaben, Wochenplanung, Projekte und Budgetübersichten bleiben lokal. Der opti
 
 Die Demo ist die echte Oberfläche von Vie (`index.html`, `app.js`, `core.js`) mit erfundenen Beispieldaten aus `demo/demo-start.js`: Aufgaben der Woche, drei Bewerbungen, Gewohnheiten und zwei Ausgaben. Alles läuft im Browser und im Arbeitsspeicher; beim Neuladen beginnt die Demo neu. Der Assistent und der lokale Agent brauchen den Node-Server und sind in der Demo nicht verbunden.
 
+Die Demo ist zweisprachig: Deutsch ist die Standardsprache, Französisch (die Originalsprache der App) wählt man mit dem Umschalter DE | FR im Hinweis am unteren Rand oder mit `?lang=fr` in der Adresse. Der Quelltext der Oberfläche bleibt französisch; `demo/demo-i18n.js` und das Wörterbuch `demo/i18n-woerterbuch.js` übersetzen nur die Anzeige und schalten die Zahlen- und Datumsformate zwischen de-DE und fr-FR um. Gespeicherte interne Werte (zum Beispiel der Bewerbungsstatus `envoyée`) sind sprachunabhängig.
+
 ## Demo lokal öffnen
 
 ~~~sh

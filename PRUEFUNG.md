@@ -6,7 +6,7 @@ Der deterministische Kern und die umfangreiche Härtungsprüfung bestanden. Zus�
 
 ## Browser-Demo
 
-Die öffentliche Demo (die echte Oberfläche mit Beispieldaten) wird mit `tools/browser-pruefen.cjs` in Chrome unter dem Veröffentlichungspfad /Vie/ geprüft: Übersicht, Aufgabe abhaken, Wochenansicht, Bewerbungen, Handybreite von 390 Pixeln ohne horizontalen Überlauf, JavaScript-Fehler und ausgehende Netzwerkanfragen. Die Seite lädt keine externen Schriften oder Tracker.
+Die öffentliche Demo (die echte Oberfläche mit Beispieldaten) wird mit `tools/browser-pruefen.cjs` in Chrome unter dem Veröffentlichungspfad /Vie/ geprüft: Übersicht, Aufgabe abhaken, Wochenansicht, Bewerbungen, Handybreite von 390 Pixeln ohne horizontalen Überlauf, JavaScript-Fehler und ausgehende Netzwerkanfragen. Beide Sprachen werden geprüft: Deutsch als Standard, der Wechsel auf Französisch und zurück sowie `?lang=fr`; in jeder Ansicht darf kein Text der jeweils anderen Sprache stehen bleiben. Die Seite lädt keine externen Schriften oder Tracker.
 
 ## Reproduzierbarkeit
 
